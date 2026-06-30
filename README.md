@@ -25,18 +25,18 @@ git lfs install
 yay -S konsave
 ```
 
-##1. Clone the repository
+## 1. Clone the repository
 Since this repository uses Git LFS, cloning it normally will automatically fetch the large .knsv file as long as you have Git LFS installed on your system.
 ```bash
 git clone https://github.com/Fanty1107/Kde-Plasma_Arch.git
 cd Kde-Plasma_Arch
 ```
-##2. Import config
+## 2. Import config
 Load the backup file into Konsave:
 ```bash
 konsave -i kdeconfig-murasaki.knsv
 ```
-##3 Apply the profile
+## 3 Apply the profile
 
 ```bash
 konsave -a kdeconfig-murasaki.knsv
